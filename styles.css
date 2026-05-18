@@ -1,0 +1,20 @@
+# SISCALI - Sistema Integrado de Carga de Alimentación Institucional
+
+Estructura separada del prototipo funcional:
+
+- `index.html`: estructura principal de la página.
+- `css/styles.css`: estilos visuales.
+- `js/app.js`: lógica de usuarios, carga de Excel, validaciones, flujo de aprobación, finanzas y exportaciones.
+
+## Cómo ejecutar
+
+Abra `index.html` en el navegador. Para uso institucional real, se recomienda subir la carpeta completa a un servidor web y posteriormente migrar usuarios/planillas desde `localStorage` a una base de datos.
+
+Usuario inicial de prueba:
+
+- Correo: `admin@sistema.cl`
+- Contraseña: `admin123`
+
+## Nota técnica
+
+La lectura y escritura de Excel depende de la librería SheetJS cargada por CDN en `index.html`.
